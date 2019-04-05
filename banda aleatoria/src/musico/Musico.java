@@ -17,7 +17,6 @@ public class Musico {
 	        this.numInstrumento=(int)(Math.random()*2)+1;
 	        a= new GestorInstrumento (this.numInstrumento);
 	        instrumento= a.generarInstrumentoAleatorio(this.numInstrumento);
-	       // System.out.println("el numero que genera es :"+this.numInstrumento);
 	        
 	    }
 	    
